@@ -17,7 +17,7 @@ function App(){
     fetchTasks()
   }
 
-  const handleDelete=async ()=>{
+  const handleDelete=async (id)=>{
     await axios.delete(`${API}/api/tasks/${id}`)
     fetchTasks()
   }
