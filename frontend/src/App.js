@@ -22,7 +22,7 @@ function App(){
     fetchTasks()
   }
   useEffect(()=>{
-    fetchTasks
+    fetchTasks()
   },[])
   return(
   <div style={{padding:"2em"}}>
